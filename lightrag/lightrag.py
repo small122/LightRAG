@@ -13,9 +13,8 @@ from .llm import (
 from .operate import (
     chunking_by_token_size,
     extract_entities,
-    local_query,
-    global_query,
-    hybrid_query,
+    # local_query,global_query,hybrid_query,
+    kg_query,
     naive_query,
 )
 
@@ -53,15 +52,28 @@ from .kg.oracle_impl import OracleKVStorage, OracleGraphStorage, OracleVectorDBS
 
 
 def always_get_an_event_loop() -> asyncio.AbstractEventLoop:
+    """
+    Ensure that there is always an event loop available.
+
+    This function tries to get the current event loop. If the current event loop is closed or does not exist,
+    it creates a new event loop and sets it as the current event loop.
+
+    Returns:
+        asyncio.AbstractEventLoop: The current or newly created event loop.
+    """
     try:
-        return asyncio.get_event_loop()
+        # Try to get the current event loop
+        current_loop = asyncio.get_event_loop()
+        if current_loop._closed:
+            raise RuntimeError("Event loop is closed.")
+        return current_loop
 
     except RuntimeError:
+        # If no event loop exists or it is closed, create a new one
         logger.info("Creating a new event loop in main thread.")
-        loop = asyncio.new_event_loop()
-        asyncio.set_event_loop(loop)
-
-        return loop
+        new_loop = asyncio.new_event_loop()
+        asyncio.set_event_loop(new_loop)
+        return new_loop
 
 
 @dataclass
@@ -415,28 +427,8 @@ class LightRAG:
         return loop.run_until_complete(self.aquery(query, param))
 
     async def aquery(self, query: str, param: QueryParam = QueryParam()):
-        if param.mode == "local":
-            response = await local_query(
-                query,
-                self.chunk_entity_relation_graph,
-                self.entities_vdb,
-                self.relationships_vdb,
-                self.text_chunks,
-                param,
-                asdict(self),
-            )
-        elif param.mode == "global":
-            response = await global_query(
-                query,
-                self.chunk_entity_relation_graph,
-                self.entities_vdb,
-                self.relationships_vdb,
-                self.text_chunks,
-                param,
-                asdict(self),
-            )
-        elif param.mode == "hybrid":
-            response = await hybrid_query(
+        if param.mode in ["local", "global", "hybrid"]:
+            response = await kg_query(
                 query,
                 self.chunk_entity_relation_graph,
                 self.entities_vdb,

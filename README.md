@@ -12,7 +12,7 @@
     </p>
      <p>
           <img src='https://img.shields.io/github/stars/hkuds/lightrag?color=green&style=social' />
-        <img src="https://img.shields.io/badge/python->=3.9.11-blue">
+        <img src="https://img.shields.io/badge/python->=3.10-blue">
         <a href="https://pypi.org/project/lightrag-hku/"><img src="https://img.shields.io/pypi/v/lightrag-hku.svg"></a>
         <a href="https://pepy.tech/project/lightrag-hku"><img src="https://static.pepy.tech/badge/lightrag-hku/month"></a>
     </p>
@@ -203,34 +203,6 @@ rag = LightRAG(
 )
 ```
 
-### Using Neo4J for Storage
-
-* For production level scenarios you will most likely want to leverage an enterprise solution
-* for KG storage. Running Neo4J in Docker is recommended for seamless local testing.
-* See: https://hub.docker.com/_/neo4j
-
-
-```python
-export NEO4J_URI="neo4j://localhost:7687"
-export NEO4J_USERNAME="neo4j"
-export NEO4J_PASSWORD="password"
-
-When you launch the project be sure to override the default KG: NetworkS
-by specifying kg="Neo4JStorage".
-
-# Note: Default settings use NetworkX
-#Initialize LightRAG with Neo4J implementation.
-WORKING_DIR = "./local_neo4jWorkDir"
-
-rag = LightRAG(
-    working_dir=WORKING_DIR,
-    llm_model_func=gpt_4o_mini_complete,  # Use gpt_4o_mini_complete LLM model
-    kg="Neo4JStorage", #<-----------override KG default
-    log_level="DEBUG"  #<-----------override log_level default
-)
-```
-see test_neo4j.py for a working example.
-
 ### Increasing context size
 In order for LightRAG to work context should be at least 32k tokens. By default Ollama models have context size of 8k. You can achieve this using one of two ways:
 
@@ -327,6 +299,33 @@ rag = LightRAG(
 with open("./newText.txt") as f:
     rag.insert(f.read())
 ```
+
+### Using Neo4J for Storage
+
+* For production level scenarios you will most likely want to leverage an enterprise solution
+* for KG storage. Running Neo4J in Docker is recommended for seamless local testing.
+* See: https://hub.docker.com/_/neo4j
+
+```python
+export NEO4J_URI="neo4j://localhost:7687"
+export NEO4J_USERNAME="neo4j"
+export NEO4J_PASSWORD="password"
+
+# When you launch the project be sure to override the default KG: NetworkX
+# by specifying kg="Neo4JStorage".
+
+# Note: Default settings use NetworkX
+# Initialize LightRAG with Neo4J implementation.
+WORKING_DIR = "./local_neo4jWorkDir"
+
+rag = LightRAG(
+    working_dir=WORKING_DIR,
+    llm_model_func=gpt_4o_mini_complete,  # Use gpt_4o_mini_complete LLM model
+    kg="Neo4JStorage", #<-----------override KG default
+    log_level="DEBUG"  #<-----------override log_level default
+)
+```
+see test_neo4j.py for a working example.
 
 ### Insert Custom KG
 
@@ -554,6 +553,35 @@ if __name__ == "__main__":
 ```
 
 </details>
+
+### LightRAG init parameters
+
+| **Parameter** | **Type** | **Explanation** | **Default** |
+| --- | --- | --- | --- |
+| **working\_dir** | `str` | Directory where the cache will be stored | `lightrag_cache+timestamp` |
+| **kv\_storage** | `str` | Storage type for documents and text chunks. Supported types: `JsonKVStorage`, `OracleKVStorage` | `JsonKVStorage` |
+| **vector\_storage** | `str` | Storage type for embedding vectors. Supported types: `NanoVectorDBStorage`, `OracleVectorDBStorage` | `NanoVectorDBStorage` |
+| **graph\_storage** | `str` | Storage type for graph edges and nodes. Supported types: `NetworkXStorage`, `Neo4JStorage`, `OracleGraphStorage` | `NetworkXStorage` |
+| **log\_level** |     | Log level for application runtime | `logging.DEBUG` |
+| **chunk\_token\_size** | `int` | Maximum token size per chunk when splitting documents | `1200` |
+| **chunk\_overlap\_token\_size** | `int` | Overlap token size between two chunks when splitting documents | `100` |
+| **tiktoken\_model\_name** | `str` | Model name for the Tiktoken encoder used to calculate token numbers | `gpt-4o-mini` |
+| **entity\_extract\_max\_gleaning** | `int` | Number of loops in the entity extraction process, appending history messages | `1` |
+| **entity\_summary\_to\_max\_tokens** | `int` | Maximum token size for each entity summary | `500` |
+| **node\_embedding\_algorithm** | `str` | Algorithm for node embedding (currently not used) | `node2vec` |
+| **node2vec\_params** | `dict` | Parameters for node embedding | `{"dimensions": 1536,"num_walks": 10,"walk_length": 40,"window_size": 2,"iterations": 3,"random_seed": 3,}` |
+| **embedding\_func** | `EmbeddingFunc` | Function to generate embedding vectors from text | `openai_embedding` |
+| **embedding\_batch\_num** | `int` | Maximum batch size for embedding processes (multiple texts sent per batch) | `32` |
+| **embedding\_func\_max\_async** | `int` | Maximum number of concurrent asynchronous embedding processes | `16` |
+| **llm\_model\_func** | `callable` | Function for LLM generation | `gpt_4o_mini_complete` |
+| **llm\_model\_name** | `str` | LLM model name for generation | `meta-llama/Llama-3.2-1B-Instruct` |
+| **llm\_model\_max\_token\_size** | `int` | Maximum token size for LLM generation (affects entity relation summaries) | `32768` |
+| **llm\_model\_max\_async** | `int` | Maximum number of concurrent asynchronous LLM processes | `16` |
+| **llm\_model\_kwargs** | `dict` | Additional parameters for LLM generation |     |
+| **vector\_db\_storage\_cls\_kwargs** | `dict` | Additional parameters for vector database (currently not used) |     |
+| **enable\_llm\_cache** | `bool` | If `TRUE`, stores LLM results in cache; repeated prompts return cached responses | `TRUE` |
+| **addon\_params** | `dict` | Additional parameters, e.g., `{"example_number": 1, "language": "Simplified Chinese"}`: sets example limit and output language | `example_number: all examples, language: English` |
+| **convert\_response\_to\_json\_func** | `callable` | Not used | `convert_response_to_json` |
 
 ## API Server Implementation
 
