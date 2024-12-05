@@ -133,7 +133,7 @@ if not os.path.exists(WORKING_DIR):
 
 # LLM model function
 async def llm_model_func(
-    prompt, system_prompt=None, history_messages=[], **kwargs
+    prompt, system_prompt=None, history_messages=[], keyword_extraction=False, **kwargs
 ) -> str:
     return await openai_complete_if_cache(
         "glm-4-plus",
