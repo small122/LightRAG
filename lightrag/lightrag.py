@@ -133,7 +133,7 @@ class LightRAG:
     convert_response_to_json_func: callable = convert_response_to_json
 
     def __post_init__(self):
-        log_file = os.path.join(self.working_dir, "lightrag.log")
+        log_file = os.path.join("lightrag.log")
         set_logger(log_file)
         logger.setLevel(self.log_level)
 
@@ -186,7 +186,9 @@ class LightRAG:
             embedding_func=self.embedding_func,
         )
         self.chunk_entity_relation_graph = self.graph_storage_cls(
-            namespace="chunk_entity_relation", global_config=asdict(self)
+            namespace="chunk_entity_relation",
+            global_config=asdict(self),
+            embedding_func=self.embedding_func,
         )
         ####
         # add embedding func by walter over
@@ -327,13 +329,39 @@ class LightRAG:
     async def ainsert_custom_kg(self, custom_kg: dict):
         update_storage = False
         try:
+            # Insert chunks into vector storage
+            all_chunks_data = {}
+            chunk_to_source_map = {}
+            for chunk_data in custom_kg.get("chunks", []):
+                chunk_content = chunk_data["content"]
+                source_id = chunk_data["source_id"]
+                chunk_id = compute_mdhash_id(chunk_content.strip(), prefix="chunk-")
+
+                chunk_entry = {"content": chunk_content.strip(), "source_id": source_id}
+                all_chunks_data[chunk_id] = chunk_entry
+                chunk_to_source_map[source_id] = chunk_id
+                update_storage = True
+
+            if self.chunks_vdb is not None and all_chunks_data:
+                await self.chunks_vdb.upsert(all_chunks_data)
+            if self.text_chunks is not None and all_chunks_data:
+                await self.text_chunks.upsert(all_chunks_data)
+
             # Insert entities into knowledge graph
             all_entities_data = []
             for entity_data in custom_kg.get("entities", []):
                 entity_name = f'"{entity_data["entity_name"].upper()}"'
                 entity_type = entity_data.get("entity_type", "UNKNOWN")
                 description = entity_data.get("description", "No description provided")
-                source_id = entity_data["source_id"]
+                # source_id = entity_data["source_id"]
+                source_chunk_id = entity_data.get("source_id", "UNKNOWN")
+                source_id = chunk_to_source_map.get(source_chunk_id, "UNKNOWN")
+
+                # Log if source_id is UNKNOWN
+                if source_id == "UNKNOWN":
+                    logger.warning(
+                        f"Entity '{entity_name}' has an UNKNOWN source_id. Please check the source mapping."
+                    )
 
                 # Prepare node data
                 node_data = {
@@ -357,7 +385,15 @@ class LightRAG:
                 description = relationship_data["description"]
                 keywords = relationship_data["keywords"]
                 weight = relationship_data.get("weight", 1.0)
-                source_id = relationship_data["source_id"]
+                # source_id = relationship_data["source_id"]
+                source_chunk_id = relationship_data.get("source_id", "UNKNOWN")
+                source_id = chunk_to_source_map.get(source_chunk_id, "UNKNOWN")
+
+                # Log if source_id is UNKNOWN
+                if source_id == "UNKNOWN":
+                    logger.warning(
+                        f"Relationship from '{src_id}' to '{tgt_id}' has an UNKNOWN source_id. Please check the source mapping."
+                    )
 
                 # Check if nodes exist in the knowledge graph
                 for need_insert_id in [src_id, tgt_id]:
