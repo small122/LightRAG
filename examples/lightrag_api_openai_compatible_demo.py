@@ -92,6 +92,7 @@ cursor = conn.cursor()
 cursor.execute('''
 CREATE TABLE IF NOT EXISTS messages (
     id INTEGER PRIMARY KEY AUTOINCREMENT,  -- SQLite 自动处理主键的唯一性和递增
+    message_id TEXT NOT NULL,
     conversation_id TEXT NOT NULL,
     sender TEXT CHECK(sender IN ('user', 'ai')) NOT NULL,  -- 使用 TEXT 模拟 ENUM 类型
     content TEXT NOT NULL,
@@ -221,7 +222,7 @@ async def query_message(request:MessageRequest):
 
     messagelist=cursor.fetchall()
     cursor.close()
-    messages=[{"id":row[0],"conversation_id":row[1],"sender":row[2],"content":row[3],"mode":row[4],"created_at":row[5]}for row in messagelist]
+    messages=[{"id":row[0],"message_id":row[1],"conversation_id":row[2],"sender":row[3],"content":row[4],"mode":row[5],"created_at":row[6]}for row in messagelist]
     return JSONResponse(content={"status":"success","data":messages})
 
 
@@ -236,7 +237,8 @@ async def query_endpoint(request: QueryRequest):
         print(request.conversation_id)
         created_at=gettime()
         cursor.execute("INSERT INTO conversations (id,user_id,title) VALUES (?,NULL,?)",(request.conversation_id,request.query))
-    cursor.execute("INSERT INTO messages (conversation_id,sender,content,mode,created_at)VALUES(?,?,?,?,?)",(request.conversation_id,"user",request.query,request.mode,gettime()))
+    message_id = str(uuid.uuid4())
+    cursor.execute("INSERT INTO messages (message_id,conversation_id,sender,content,mode,created_at)VALUES(?,?,?,?,?,?)",(message_id,request.conversation_id,"user",request.query,request.mode,gettime()))
     conn.commit()
     cursor.close()
 
@@ -252,15 +254,18 @@ async def query_endpoint(request: QueryRequest):
                 ),
             ),
         )
+        result=result.strip("'''").replace("markdown","").strip()
+        message_id=str(uuid.uuid4())
         #回答问题
         cursor = conn.cursor()
-        cursor.execute("INSERT INTO messages (conversation_id,sender,content,mode,created_at)VALUES(?,?,?,?,?)",
-                       (request.conversation_id, "ai", result, request.mode, gettime()))
+        cursor.execute("INSERT INTO messages (message_id,conversation_id,sender,content,mode,created_at)VALUES(?,?,?,?,?,?)",
+                       (message_id,request.conversation_id, "ai", result, request.mode, gettime()))
         conn.commit()
         cursor.close()
         return Response(status="success", data=result,message=request.conversation_id)
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error: {str(e)}")
+# async def query_content2tree()
 @app.get("/getfilelist")
 async def getfilelist():
     cursor=conn.cursor()

@@ -2,7 +2,7 @@ GRAPH_FIELD_SEP = "<SEP>"
 
 PROMPTS = {}
 
-PROMPTS["DEFAULT_LANGUAGE"] = "English"
+PROMPTS["DEFAULT_LANGUAGE"] = "Chinese"
 PROMPTS["DEFAULT_TUPLE_DELIMITER"] = "<|>"
 PROMPTS["DEFAULT_RECORD_DELIMITER"] = "##"
 PROMPTS["DEFAULT_COMPLETION_DELIMITER"] = "<|COMPLETE|>"
@@ -164,17 +164,12 @@ PROMPTS["rag_response"] = """---Role---
 
 You are a helpful assistant responding to questions about data in the tables provided.
 
+
 ---Goal---
 
-Generate a response of the target length and format that responds to the user's question, summarizing all information in the input data tables appropriate for the response length and format, and incorporating any relevant general knowledge. If you don't know the answer, just say so. Do not make anything up. Do not include information where the supporting evidence for it is not provided.
-
-Ensure the response is formatted using **standard Markdown** syntax. This includes:
-- Using headings (`##`, `###`) for organizing sections.
-- Using bullet points (`*`) where appropriate for lists.
-- Using tables for data presentation, if necessary.
-- Ensuring proper emphasis with bold (`**`) or italics (`*`) where needed.
-
-**Do not use any code block markers ('```' or '```markdown') in the response.**
+Generate a response of the target length and format that responds to the user's question, summarizing all information in the input data tables appropriate for the response length and format, and incorporating any relevant general knowledge.
+If you don't know the answer, just say so. Do not make anything up.
+Do not include information where the supporting evidence for it is not provided.
 
 ---Target response length and format---
 
@@ -183,6 +178,8 @@ Ensure the response is formatted using **standard Markdown** syntax. This includ
 ---Data tables---
 
 {context_data}
+
+Add sections and commentary to the response as appropriate for the length and format. Style the response in markdown.
 
 
 """
