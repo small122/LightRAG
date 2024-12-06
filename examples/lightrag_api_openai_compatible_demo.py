@@ -153,31 +153,31 @@ async def embedding_func(texts: list[str]) -> np.ndarray:
         api_key='EMPTY',
         #api_key=os.getenv("SILICON_API_KEY"),
         #base_url="https://api.siliconflow.cn/v1",
-        base_url="http://172.21.252.218:9997/v1",
+        base_url="http://127.0.0.1:8120/v1",
     )
 
 
 # Initialize RAG instance
 #OPenai 写法
-# rag = LightRAG(
-#     working_dir=WORKING_DIR,
-#     llm_model_func=llm_model_func,
-#     embedding_func=EmbeddingFunc(
-#         embedding_dim=1792, max_token_size=1024, func=embedding_func
-#     ),
-# )
-#ollama写法
 rag = LightRAG(
     working_dir=WORKING_DIR,
-    llm_model_func=ollama_model_complete,
-    llm_model_name="phi3:latest",
-    llm_model_max_async=4,
-    llm_model_max_token_size=32768,
-    llm_model_kwargs={"host": "http://223.2.37.45:11434", "options": {"num_ctx": 32768}},
+    llm_model_func=llm_model_func,
     embedding_func=EmbeddingFunc(
-        embedding_dim=1792, max_token_size=1024, func=embedding_func
+        embedding_dim=1024, max_token_size=1024, func=embedding_func
     ),
 )
+#ollama写法
+# rag = LightRAG(
+#     working_dir=WORKING_DIR,
+#     llm_model_func=ollama_model_complete,
+#     llm_model_name="phi3:latest",
+#     llm_model_max_async=4,
+#     llm_model_max_token_size=32768,
+#     llm_model_kwargs={"host": "http://223.2.37.45:11434", "options": {"num_ctx": 32768}},
+#     embedding_func=EmbeddingFunc(
+#         embedding_dim=1024, max_token_size=1024, func=embedding_func
+#     ),
+# )
 
 # Data models for API requests
 class MessageRequest(BaseModel):
@@ -408,7 +408,7 @@ def gettime():
 # Start the FastAPI app
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="127.0.0.1", port=8020)
+    uvicorn.run(app, host="0.0.0.0", port=8020)
 
 # Usage example:
 # To run the server, use the following command in your terminal:
