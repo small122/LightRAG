@@ -8,7 +8,7 @@ PROMPTS["DEFAULT_RECORD_DELIMITER"] = "##"
 PROMPTS["DEFAULT_COMPLETION_DELIMITER"] = "<|COMPLETE|>"
 PROMPTS["process_tickers"] = ["⠋", "⠙", "⠹", "⠸", "⠼", "⠴", "⠦", "⠧", "⠇", "⠏"]
 
-PROMPTS["DEFAULT_ENTITY_TYPES"] = ["organization", "person", "geo", "event"]
+PROMPTS["DEFAULT_ENTITY_TYPES"] = ["organization", "person", "geo", "event", "category"]
 
 # 该提示用于从给定的文本中提取实体和关系，基于指定的实体类型（例如：人、组织、地点等）。它识别文本中的实体，并描述它们，同时找出实体之间的关系。输出结果按照特定格式呈现，实体和关系以元组的形式展示。
 PROMPTS["entity_extraction"] = """-Goal-
@@ -189,7 +189,6 @@ Add sections and commentary to the response as appropriate for the length and fo
 PROMPTS["keywords_extraction"] = """---Role---
 
 You are a helpful assistant tasked with identifying both high-level and low-level keywords in the user's query.
-Use {language} as output language.
 
 ---Goal---
 
@@ -271,4 +270,28 @@ Do not include information where the supporting evidence for it is not provided.
 {content_data}
 
 Add sections and commentary to the response as appropriate for the length and format. Style the response in markdown.
+"""
+
+PROMPTS[
+    "similarity_check"
+] = """Please analyze the similarity between these two questions:
+
+Question 1: {original_prompt}
+Question 2: {cached_prompt}
+
+Please evaluate the following two points and provide a similarity score between 0 and 1 directly:
+1. Whether these two questions are semantically similar
+2. Whether the answer to Question 2 can be used to answer Question 1
+Similarity score criteria:
+0: Completely unrelated or answer cannot be reused, including but not limited to:
+   - The questions have different topics
+   - The locations mentioned in the questions are different
+   - The times mentioned in the questions are different
+   - The specific individuals mentioned in the questions are different
+   - The specific events mentioned in the questions are different
+   - The background information in the questions is different
+   - The key conditions in the questions are different
+1: Identical and answer can be directly reused
+0.5: Partially related and answer needs modification to be used
+Return only a number between 0-1, without any additional content.
 """

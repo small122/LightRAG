@@ -12,9 +12,17 @@ def visual_with_html():
     # Convert NetworkX graph to Pyvis network
     net.from_nx(G)
 
-    # Add colors to nodes
-    for node in net.nodes:
-        node["color"] = "#{:06x}".format(random.randint(0, 0xFFFFFF))
+
+# Add colors and title to nodes
+for node in net.nodes:
+    node["color"] = "#{:06x}".format(random.randint(0, 0xFFFFFF))
+    if "description" in node:
+        node["title"] = node["description"]
+
+# Add title to edges
+for edge in net.edges:
+    if "description" in edge:
+        edge["title"] = edge["description"]
 
     # Save and display the network
     net.show("knowledge_graph.html")

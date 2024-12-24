@@ -4,6 +4,7 @@ aiohttp
 
 # database packages
 graspologic
+gremlinpython
 hnswlib
 nano-vectordb
 neo4j
@@ -11,11 +12,15 @@ networkx
 ollama
 openai
 oracledb
+psycopg[binary,pool]
 pymilvus
 pymongo
+pymysql
 pyvis
-tenacity
 # lmdeploy[all]
+sqlalchemy
+tenacity
+
 
 # LLM packages
 tiktoken
