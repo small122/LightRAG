@@ -1,0 +1,226 @@
+在没有互联网连接的 Ubuntu 电脑上安装 Python，确实需要准备和转移安装包以及相关的依赖项。让我们进一步详细说明每个步骤，以确保完整和准确地安装 Python。
+
+### 步骤 1: 确定 Python 版本
+
+首先，确定你要安装的 Python 版本。这里，我们将以 Python 3.8.10 为例。
+
+### 步骤 2: 在联网的电脑上下载 Python 安装包
+
+1. **下载 Python 源码文件**
+
+   - 前往 [Python 官方网站](https://www.python.org/downloads/source/)。
+   - 在“Source Releases”部分找到 Python 3.8.10，点击下载 `Gzipped source tarball` (`Python-3.8.10.tgz`)。
+
+2. **下载构建所需的依赖包**
+
+   这些依赖包包括编译和构建 Python 所需的工具和库。在联网的 Ubuntu 电脑上：
+
+   ```bash
+   sudo apt-get update
+   sudo apt-get install --download-only build-essential libssl-dev zlib1g-dev \
+   libncurses5-dev libreadline-dev libsqlite3-dev libffi-dev libbz2-dev
+   ```
+
+   - **`build-essential`**: 包含常用的编译工具，如 GCC 和 make。
+   - **`libssl-dev`**: 提供 OpenSSL 库的开发文件，用于安全功能。
+   - **`zlib1g-dev`**: 提供 zlib 压缩库的开发文件。
+   - **`libncurses5-dev`**: 提供终端处理库的开发文件。
+   - **`libreadline-dev`**: 提供 GNU Readline 库的开发文件，用于命令行界面交互。
+   - **`libsqlite3-dev`**: 提供 SQLite3 库的开发文件。
+   - **`libffi-dev`**: 提供外部函数接口库的开发文件。
+   - **`libbz2-dev`**: 提供 bzip2 压缩库的开发文件。
+
+   这些命令会下载 `.deb` 文件并将它们保存在 `/var/cache/apt/archives/` 目录中。
+
+### 步骤 3: 转移文件到断网的电脑
+
+使用 USB 设备或其他方法，将以下文件从联网的电脑传输到没有互联网连接的电脑上：
+
+- Python 源码文件 (`Python-3.8.10.tgz`)。
+- `/var/cache/apt/archives/` 目录中的所有 `.deb` 文件。
+
+### 步骤 4: 在断网的电脑上安装依赖包
+
+1. 将 `.deb` 文件放在一个目录中，例如 `/home/user/debs/`。
+
+2. 打开终端并导航到该目录：
+
+   ```bash
+   cd /home/user/debs/
+   ```
+
+3. 使用 `dpkg` 安装所有依赖包：
+
+   ```bash
+   sudo dpkg -i *.deb
+   ```
+
+   如果安装过程中遇到依赖关系问题，可以运行以下命令来修复：
+
+   ```bash
+   sudo apt-get install -f
+   ```
+
+### 步骤 5: 编译并安装 Python
+
+1. **解压 Python 源码文件**:
+
+   将 `Python-3.8.10.tgz` 复制到你希望安装 Python 的目录（例如 `/usr/local/src/`），然后解压：
+
+   ```bash
+   cd /usr/local/src/
+   sudo tar -xvf Python-3.8.10.tgz
+   cd Python-3.8.10
+   ```
+
+2. **配置 Python 构建环境**:
+
+   在解压后的 Python 源码目录中，配置构建选项。`--enable-optimizations` 会开启一些优化编译选项，使 Python 运行更高效。
+
+   ```bash
+   sudo ./configure --enable-optimizations
+   ```
+
+   可以添加更多选项来满足特定需求，例如指定安装路径或者启用其他功能。
+
+3. **编译并安装 Python**:
+
+   使用 `make` 编译 Python 代码，`-j$(nproc)` 选项使编译过程更快，利用了所有可用的 CPU 内核。然后使用 `make altinstall` 安装 Python：
+
+   ```bash
+   sudo make -j$(nproc)
+   sudo make altinstall
+   ```
+
+   **注意**: `altinstall` 会安装 Python 并避免覆盖系统默认的 Python 版本。这很重要，因为某些系统任务依赖默认的 Python 版本。
+
+### 步骤 6: 验证安装
+
+安装完成后，验证 Python 是否正确安装：
+
+```bash
+python3.8 --version
+```
+
+这应该会输出 Python 3.8.10，表明 Python 已成功安装。
+
+### 步骤 7: 设置 Python 环境（可选）
+
+如果你希望方便地使用新安装的 Python 版本，可以将其路径添加到 `PATH` 环境变量中：
+
+1. 打开 `.bashrc` 文件：
+
+   ```bash
+   nano ~/.bashrc
+   ```
+
+2. 在文件末尾添加以下行：
+
+   ```bash
+   export PATH="/usr/local/bin/python3.8:$PATH"
+   ```
+
+3. 保存并关闭文件，然后重新加载 `.bashrc`：
+
+   ```bash
+   source ~/.bashrc
+   ```
+
+现在，你应该可以使用 `python3.8` 命令直接访问新安装的 Python 版本。
+
+
+
+
+
+在目标电脑没有互联网的情况下，你可以使用以下步骤将 Python 包从一个有网络的电脑转移到没有网络的电脑：
+
+### 步骤 1: 从联网电脑导出 `site-packages`
+
+1. **压缩 `site-packages` 目录**:
+
+   在联网的电脑上，找到并压缩 `~/.local/lib/python3.X/site-packages/` 目录（假设你正在使用 Python 3.X）：
+
+   ```bash
+   tar -czvf site-packages.tar.gz -C ~/.local/lib/python3.X/ site-packages
+   ```
+
+   这样会创建一个 `site-packages.tar.gz` 文件。
+
+2. **转移 `site-packages` 目录**:
+
+   将 `site-packages.tar.gz` 文件通过 USB 驱动器或其他传输介质转移到目标电脑。
+
+### 步骤 2: 导出和转移库列表
+
+为了确保目标电脑上的 Python 环境完整地包含所有必要的库，你可以从联网电脑导出库列表。
+
+1. **生成 `requirements.txt` 文件**:
+
+   在联网的电脑上，运行以下命令以导出当前环境中安装的所有库：
+
+   ```bash
+   python3.X -m pip freeze > requirements.txt
+   ```
+
+2. **下载所有库文件**:
+
+   使用 `pip download` 命令下载所有依赖包，这样可以在目标电脑上离线安装：
+
+   ```bash
+   mkdir packages
+   pip download -r requirements.txt -d packages
+   ```
+
+   这会将所有依赖包下载到 `packages` 目录。
+
+3. **转移库文件**:
+
+   将 `requirements.txt` 和 `packages` 目录通过 USB 驱动器或其他传输介质转移到目标电脑。
+
+### 步骤 3: 在目标电脑上安装包
+
+1. **解压 `site-packages` 目录**:
+
+   在目标电脑上，将 `site-packages.tar.gz` 解压到 Python 的 `site-packages` 目录：
+
+   ```bash
+   tar -xzvf site-packages.tar.gz -C ~/.local/lib/python3.X/
+   ```
+
+   如果需要，可以调整路径到实际的 `site-packages` 目录。
+
+2. **安装下载的包**:
+
+   将 `packages` 目录中的所有包文件移动到目标电脑：
+
+   ```bash
+   cd /path/to/packages
+   ```
+
+   使用 `pip` 从本地目录安装所有包：
+
+   ```bash
+   python3.X -m pip install --no-index --find-links /path/to/packages -r requirements.txt
+   ```
+
+   `--no-index` 参数确保 `pip` 不尝试从网络上获取包，`--find-links` 参数指定本地包目录。
+
+### 步骤 4: 验证安装
+
+1. **检查安装包**:
+
+   使用以下命令检查库是否已成功安装：
+
+   ```bash
+   python3.X -m pip list
+   ```
+
+2. **验证库功能**:
+
+   运行一些简单的 Python 代码来确认包可以正常导入：
+
+   ```python
+   python3.X -c "import numpy; print(numpy.__version__)"
+   ```
+
+这样，你可以在没有互联网的目标电脑上完成 Python 库的迁移和安装。
