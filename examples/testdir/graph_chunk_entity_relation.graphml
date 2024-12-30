@@ -1,0 +1,1549 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d5" for="edge" attr.name="keywords" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;国际战争法&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"国际战争法是指国际社会为规范战争行为而制定的法律规范。"</data>
+  <data key="d2">chunk-f2d82ed6062b818a0ed93b7fe82e1703</data>
+</node>
+<node id="&quot;多军种联合演习&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"多军种联合演习是指不同军种之间的联合军事演习。"</data>
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</node>
+<node id="&quot;反恐宣传模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"反恐宣传模型是用于制定反恐宣传策略与计划的模型，属于军事模型之一。"</data>
+  <data key="d2">chunk-5f574901424cf2e3461619c384c60966</data>
+</node>
+<node id="&quot;冲突&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"冲突是指两个或多个实体之间因利益、观念或资源等产生的对立和争执。"</data>
+  <data key="d2">chunk-f2d82ed6062b818a0ed93b7fe82e1703</data>
+</node>
+<node id="&quot;防空武器&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"防空武器是指用于防御空中攻击的武器系统。"</data>
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</node>
+<node id="&quot;对话策略&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"对话策略是指通过沟通和协商来解决冲突或达成共识的方法。"</data>
+  <data key="d2">chunk-f2d82ed6062b818a0ed93b7fe82e1703</data>
+</node>
+<node id="&quot;化学、生物威胁&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"化学、生物威胁是指化学武器和生物武器对军事行动的潜在威胁。"</data>
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</node>
+<node id="&quot;快速决策流程&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"快速决策流程是指在紧急情况下迅速做出决策的流程和机制。"</data>
+  <data key="d2">chunk-f2d82ed6062b818a0ed93b7fe82e1703</data>
+</node>
+<node id="&quot;地面侦察任务&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"地面侦察任务是指为了获取敌方信息而进行的地面侦察活动。"</data>
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</node>
+<node id="&quot;新技术应用&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"新技术应用是指在军事领域采用新的技术或方法以提高作战效能。"</data>
+  <data key="d2">chunk-f2d82ed6062b818a0ed93b7fe82e1703</data>
+</node>
+<node id="&quot;指挥官&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"指挥官是指在军事行动中负责指挥和控制部队的军官。"</data>
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</node>
+<node id="&quot;作战策略&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"作战策略是指在特定的战场环境下，为达成作战目标而采取的战术和行动方案。"</data>
+  <data key="d2">chunk-f2d82ed6062b818a0ed93b7fe82e1703</data>
+</node>
+<node id="&quot;部队&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"部队是指在军事行动中执行任务的军事组织。"</data>
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</node>
+<node id="&quot;军事资源&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"军事资源是指用于军事行动的人力、物力和财力等资源。"</data>
+  <data key="d2">chunk-f2d82ed6062b818a0ed93b7fe82e1703</data>
+</node>
+<node id="&quot;坦克&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"坦克是一种装甲战斗车辆，主要用于地面战场。"</data>
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</node>
+<node id="&quot;特定行动&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"特定行动是指为达成特定目标而进行的军事行动或作战任务。"</data>
+  <data key="d2">chunk-f2d82ed6062b818a0ed93b7fe82e1703</data>
+</node>
+<node id="&quot;夜间作战&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"夜间作战是指在夜间进行的军事行动。"</data>
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</node>
+<node id="&quot;恐怖活动&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"恐怖活动是指以恐怖手段实施的暴力行为，可能对国家安全和社会稳定构成威胁。"</data>
+  <data key="d2">chunk-f2d82ed6062b818a0ed93b7fe82e1703</data>
+</node>
+<node id="&quot;训练效果和进度&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"训练效果和进度是指部队训练的成果和进展情况。"</data>
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</node>
+<node id="&quot;多国情报共享机制&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"多国情报共享机制是指多个国家之间为共同应对安全威胁而建立的情报共享体系。"</data>
+  <data key="d2">chunk-f2d82ed6062b818a0ed93b7fe82e1703</data>
+</node>
+<node id="&quot;作战目标优先级&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"作战目标优先级是指在军事行动中目标的优先顺序。"</data>
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</node>
+<node id="&quot;防御设施&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"防御设施是指用于保护军事基地或重要设施的安全设施。"</data>
+  <data key="d2">chunk-f2d82ed6062b818a0ed93b7fe82e1703</data>
+</node>
+<node id="&quot;战场信息传播机制&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"战场信息传播机制是指用于在军事行动中传播战场信息的系统或方法。"</data>
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</node>
+<node id="&quot;战争对经济的影响&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"战争对经济的影响是指战争行为对国家经济造成的破坏和影响。"</data>
+  <data key="d2">chunk-f2d82ed6062b818a0ed93b7fe82e1703</data>
+</node>
+<node id="&quot;谈判策略&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"谈判策略是指在军事冲突中用于解决争端的策略。"</data>
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</node>
+<node id="&quot;决策支持模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"决策支持模型是用于提供决策支持工具和系统的模型，属于军事模型之一。"</data>
+  <data key="d2">chunk-5f574901424cf2e3461619c384c60966</data>
+</node>
+<node id="&quot;海上作战&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"海上作战是指在海域进行的军事行动，包括舰艇作战和潜艇作战等。"</data>
+  <data key="d2">chunk-f2d82ed6062b818a0ed93b7fe82e1703</data>
+</node>
+<node id="&quot;海上巡逻航线和时间&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"海上巡逻航线和时间是指海上巡逻的具体航线和巡逻时间。"</data>
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</node>
+<node id="&quot;敌方&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"敌方指的是实施渗透的敌方组织，是军事模型所针对的对象。"</data>
+  <data key="d2">chunk-5f574901424cf2e3461619c384c60966</data>
+</node>
+<node id="&quot;情报分析&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"情报分析是指对收集到的情报进行整理、评估和解读的过程。"</data>
+  <data key="d2">chunk-f2d82ed6062b818a0ed93b7fe82e1703</data>
+</node>
+<node id="&quot;地面防御阵地&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"地面防御阵地是指在地面战场上建立的防御位置。"</data>
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</node>
+<node id="&quot;措施&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"措施指的是为防止敌方渗透而采取的具体行动或手段。"&lt;SEP&gt;"措施是指为达到特定目标而采取的行动或手段。"</data>
+  <data key="d2">chunk-8ed5acdc8813bc57d34368a6aad3692e&lt;SEP&gt;chunk-5f574901424cf2e3461619c384c60966</data>
+</node>
+<node id="&quot;导弹防御&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"导弹防御是指防御敌方导弹攻击的一系列措施和系统。"</data>
+  <data key="d2">chunk-f2d82ed6062b818a0ed93b7fe82e1703</data>
+</node>
+<node id="&quot;战斗补给路线&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"战斗补给路线是指在战斗中为部队提供补给品的路线。"</data>
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</node>
+<node id="&quot;民心工程模型&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"民心工程模型通过改善地方基础设施赢得民众支持。"</data>
+  <data key="d2">chunk-7b78daee5924b1031c72b82d1c076986</data>
+</node>
+<node id="&quot;部队人事管理&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"部队人事管理是指对军事人员的管理和调配，包括选拔、培训、晋升等。"</data>
+  <data key="d2">chunk-f2d82ed6062b818a0ed93b7fe82e1703</data>
+</node>
+<node id="&quot;冲突升级的可能性&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"冲突升级的可能性是指在军事冲突中冲突可能加剧的程度。"</data>
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</node>
+<node id="&quot;战争&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"战争是指敌对双方之间的武装冲突，是军事模型所模拟和评估的场景。"</data>
+  <data key="d2">chunk-5f574901424cf2e3461619c384c60966</data>
+</node>
+<node id="&quot;后勤保障&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"后勤保障是指为军事行动提供必要的物资、装备、补给和医疗服务等。"</data>
+  <data key="d2">chunk-f2d82ed6062b818a0ed93b7fe82e1703</data>
+</node>
+<node id="&quot;军事领导力&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"军事领导力是指军事指挥官的领导能力和军事才能。"</data>
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</node>
+<node id="&quot;环境&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"环境指的是战争发生地的自然环境，对于军事行动有重要影响。"</data>
+  <data key="d2">chunk-5f574901424cf2e3461619c384c60966</data>
+</node>
+<node id="&quot;士兵健康&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"士兵健康是指保持士兵的身体和心理状态良好，以便有效地执行任务。"</data>
+  <data key="d2">chunk-f2d82ed6062b818a0ed93b7fe82e1703</data>
+</node>
+<node id="&quot;战斗数据&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"战斗数据是指在军事行动中收集的数据，用于分析和评估。"</data>
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</node>
+<node id="&quot;战场&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"战场是指军事冲突发生的地点，通常具有战略意义。"&lt;SEP&gt;"战场是指战争实际发生的地理区域，是军事模型模拟的重点。"</data>
+  <data key="d2">chunk-5f574901424cf2e3461619c384c60966&lt;SEP&gt;chunk-7b78daee5924b1031c72b82d1c076986</data>
+</node>
+<node id="&quot;应急处理&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"应急处理是指在面对突发事件或危机时采取的快速反应和应对措施。"</data>
+  <data key="d2">chunk-f2d82ed6062b818a0ed93b7fe82e1703</data>
+</node>
+<node id="&quot;卫星&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"卫星是指围绕地球运行的人造或自然天体，用于各种目的，包括军事监测。"</data>
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</node>
+<node id="&quot;宣传&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"宣传指的是通过信息传播影响敌方士气和民众情绪的活动。"</data>
+  <data key="d2">chunk-5f574901424cf2e3461619c384c60966</data>
+</node>
+<node id="&quot;部队流动模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"部队流动模型是用于规划部队在战场上流动的模型，属于军事模型之一。"</data>
+  <data key="d2">chunk-5f574901424cf2e3461619c384c60966</data>
+</node>
+<node id="&quot;战略规划&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"战略规划是指为长期目标制定战略方向和行动方案的过程。"</data>
+  <data key="d2">chunk-f2d82ed6062b818a0ed93b7fe82e1703</data>
+</node>
+<node id="&quot;战术欺诈模型&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"战术欺诈模型是用于制造假目标误导敌方的一种模型。"</data>
+  <data key="d2">chunk-7b78daee5924b1031c72b82d1c076986</data>
+</node>
+<node id="&quot;资源保护模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"资源保护模型是一种用于制定资源保护措施和计划的模型。"</data>
+  <data key="d2">chunk-8ed5acdc8813bc57d34368a6aad3692e</data>
+</node>
+<node id="&quot;生态影响评估模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"生态影响评估模型是一种用于评估战争对环境的模型。"&lt;SEP&gt;"生态影响评估模型是用于评估战争对环境影响的模型，属于军事模型之一。"</data>
+  <data key="d2">chunk-8ed5acdc8813bc57d34368a6aad3692e&lt;SEP&gt;chunk-5f574901424cf2e3461619c384c60966</data>
+</node>
+<node id="&quot;电子干扰模型&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"电子干扰模型用于进行敌方雷达和通信的干扰。"</data>
+  <data key="d2">chunk-7b78daee5924b1031c72b82d1c076986</data>
+</node>
+<node id="&quot;航空补给模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"航空补给模型是一种用于规划空中补给实施方案的模型。"</data>
+  <data key="d2">chunk-8ed5acdc8813bc57d34368a6aad3692e</data>
+</node>
+<node id="&quot;突发事件应对模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"突发事件应对模型是用于制定突发事件应对措施的模型，属于军事模型之一。"</data>
+  <data key="d2">chunk-5f574901424cf2e3461619c384c60966</data>
+</node>
+<node id="&quot;反无人机模型&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"反无人机模型用于侦测并拦截敌方无人机。"</data>
+  <data key="d2">chunk-7b78daee5924b1031c72b82d1c076986</data>
+</node>
+<node id="&quot;反制措施模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"反制措施模型是一种用于设计针对敌方行动的反制策略的模型。"</data>
+  <data key="d2">chunk-8ed5acdc8813bc57d34368a6aad3692e</data>
+</node>
+<node id="&quot;心理战模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"心理战模型是一种用于制定心理战策略与措施的模型。"&lt;SEP&gt;"心理战模型是用于制定心理战策略与措施的模型，属于军事模型之一。"</data>
+  <data key="d2">chunk-8ed5acdc8813bc57d34368a6aad3692e&lt;SEP&gt;chunk-5f574901424cf2e3461619c384c60966</data>
+</node>
+<node id="&quot;情报收集模型&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"情报收集模型通过无人机收集战场情报。"</data>
+  <data key="d2">chunk-7b78daee5924b1031c72b82d1c076986</data>
+</node>
+<node id="&quot;舰队协同作战模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"舰队协同作战模型是一种用于规划舰队之间协同作战的模型。"</data>
+  <data key="d2">chunk-8ed5acdc8813bc57d34368a6aad3692e</data>
+</node>
+<node id="&quot;事件调查模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"事件调查模型是用于进行战斗后事件调查和分析的模型，属于军事模型之一。"</data>
+  <data key="d2">chunk-5f574901424cf2e3461619c384c60966</data>
+</node>
+<node id="&quot;目标识别模型&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"目标识别模型使用图像识别技术识别敌方目标。"</data>
+  <data key="d2">chunk-7b78daee5924b1031c72b82d1c076986</data>
+</node>
+<node id="&quot;训练教材开发模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"训练教材开发模型是一种用于开发针对特定任务的训练教材的模型。"</data>
+  <data key="d2">chunk-8ed5acdc8813bc57d34368a6aad3692e</data>
+</node>
+<node id="&quot;网络攻击模型&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"网络攻击模型通过瘫痪敌方指挥系统的网络攻击。"</data>
+  <data key="d2">chunk-7b78daee5924b1031c72b82d1c076986</data>
+</node>
+<node id="&quot;空中侦察模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"空中侦察模型是一种用于设计空中侦察任务和计划的模型。"</data>
+  <data key="d2">chunk-8ed5acdc8813bc57d34368a6aad3692e</data>
+</node>
+<node id="&quot;战斗机拦截模型&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"战斗机拦截模型设计拦截敌方来袭导弹的战斗机任务。"</data>
+  <data key="d2">chunk-7b78daee5924b1031c72b82d1c076986</data>
+</node>
+<node id="&quot;社会舆论监测模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"社会舆论监测模型是一种用于监测并分析社会舆论对战争影响的模型。"</data>
+  <data key="d2">chunk-8ed5acdc8813bc57d34368a6aad3692e</data>
+</node>
+<node id="&quot;伪装模型&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"伪装模型制定伪装策略保护友军部队。"</data>
+  <data key="d2">chunk-7b78daee5924b1031c72b82d1c076986</data>
+</node>
+<node id="&quot;军事博弈模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"军事博弈模型是一种用于进行军事决策博弈分析的模型。"</data>
+  <data key="d2">chunk-8ed5acdc8813bc57d34368a6aad3692e</data>
+</node>
+<node id="&quot;反游击战模型&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"反游击战模型进行针对游击队的快速打击。"</data>
+  <data key="d2">chunk-7b78daee5924b1031c72b82d1c076986</data>
+</node>
+<node id="&quot;非战斗伤亡预防模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"非战斗伤亡预防模型是一种用于制定预防非战斗伤亡措施的模型。"</data>
+  <data key="d2">chunk-8ed5acdc8813bc57d34368a6aad3692e</data>
+</node>
+<node id="&quot;伤亡评估模型&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"伤亡评估模型评估作战中己方和敌方伤亡。"</data>
+  <data key="d2">chunk-7b78daee5924b1031c72b82d1c076986</data>
+</node>
+<node id="&quot;情报分析模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"情报分析模型是一种用于深入分析收集到的情报信息的模型。"</data>
+  <data key="d2">chunk-8ed5acdc8813bc57d34368a6aad3692e</data>
+</node>
+<node id="&quot;训练计划模型&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"训练计划模型制定针对特定武器的训练计划。"</data>
+  <data key="d2">chunk-7b78daee5924b1031c72b82d1c076986</data>
+</node>
+<node id="&quot;任务分配模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"任务分配模型是一种用于优化军事任务分配和执行的模型。"</data>
+  <data key="d2">chunk-8ed5acdc8813bc57d34368a6aad3692e</data>
+</node>
+<node id="&quot;战斗损伤评估模型&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"战斗损伤评估模型评估设备和人员在战斗中的损伤。"</data>
+  <data key="d2">chunk-7b78daee5924b1031c72b82d1c076986</data>
+</node>
+<node id="&quot;补给&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"补给是指为维持军队或活动提供必需品和资源。"</data>
+  <data key="d2">chunk-7b78daee5924b1031c72b82d1c076986</data>
+</node>
+<node id="&quot;过渡时期管理模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"过渡时期管理模型是一种用于管理战争结束后的过渡时期的模型。"</data>
+  <data key="d2">chunk-8ed5acdc8813bc57d34368a6aad3692e</data>
+</node>
+<node id="&quot;信息战&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"信息战是指利用信息手段进行的战争。"</data>
+  <data key="d2">chunk-8ed5acdc8813bc57d34368a6aad3692e</data>
+</node>
+<node id="&quot;情境模拟模型&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"情境模拟模型模拟不同战术场景以进行战术评估。"</data>
+  <data key="d2">chunk-7b78daee5924b1031c72b82d1c076986</data>
+</node>
+<node id="&quot;水域&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"水域是指被水覆盖的地球表面区域，如海洋、河流等。"</data>
+  <data key="d2">chunk-7b78daee5924b1031c72b82d1c076986</data>
+</node>
+<node id="&quot;文化适应模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"文化适应模型是一种用于评估和适应不同文化的军事行动的模型。"</data>
+  <data key="d2">chunk-8ed5acdc8813bc57d34368a6aad3692e</data>
+</node>
+<node id="&quot;技术升级&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"技术升级是指对现有技术进行改进或更换。"</data>
+  <data key="d2">chunk-8ed5acdc8813bc57d34368a6aad3692e</data>
+</node>
+<node id="&quot;空中支援请求模型&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"空中支援请求模型处理地面部队的空中支援请求。"</data>
+  <data key="d2">chunk-7b78daee5924b1031c72b82d1c076986</data>
+</node>
+<node id="&quot;车辆&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"车辆是指用于运输人员或货物的交通工具，如汽车、坦克等。"</data>
+  <data key="d2">chunk-7b78daee5924b1031c72b82d1c076986</data>
+</node>
+<node id="&quot;资源调配模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"资源调配模型是一种用于优化不同资源调配策略的模型。"</data>
+  <data key="d2">chunk-8ed5acdc8813bc57d34368a6aad3692e</data>
+</node>
+<node id="&quot;反洗钱&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"反洗钱是指为防止资金被用于非法活动而采取的措施。"</data>
+  <data key="d2">chunk-8ed5acdc8813bc57d34368a6aad3692e</data>
+</node>
+<node id="&quot;反潜作战模型&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"反潜作战模型针对潜艇的反潜策略和战术。"</data>
+  <data key="d2">chunk-7b78daee5924b1031c72b82d1c076986</data>
+</node>
+<node id="&quot;监视&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"监视是指对特定区域或对象进行观察和记录的活动。"</data>
+  <data key="d2">chunk-7b78daee5924b1031c72b82d1c076986</data>
+</node>
+<node id="&quot;信息战模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"信息战模型是一种用于制定信息战策略和措施的模型。"</data>
+  <data key="d2">chunk-8ed5acdc8813bc57d34368a6aad3692e</data>
+</node>
+<node id="&quot;武器系统&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"武器系统是指用于战斗的设备或系统。"</data>
+  <data key="d2">chunk-8ed5acdc8813bc57d34368a6aad3692e</data>
+</node>
+<node id="&quot;应急医疗模型&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"应急医疗模型制定战场紧急医疗响应方案。"</data>
+  <data key="d2">chunk-7b78daee5924b1031c72b82d1c076986</data>
+</node>
+<node id="&quot;卫星监测模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"卫星监测模型是一种利用卫星进行战场监测的模型。"&lt;SEP&gt;"卫星监测模型是一种利用卫星进行战场监测的模型，属于军事领域的技术应用。"</data>
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd&lt;SEP&gt;chunk-f2d82ed6062b818a0ed93b7fe82e1703</data>
+</node>
+<node id="&quot;技术升级模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"技术升级模型是一种用于规划军事技术升级和更新的模型。"</data>
+  <data key="d2">chunk-8ed5acdc8813bc57d34368a6aad3692e</data>
+</node>
+<node id="&quot;谍报&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"谍报是指收集敌对方信息的活动。"</data>
+  <data key="d2">chunk-8ed5acdc8813bc57d34368a6aad3692e</data>
+</node>
+<node id="&quot;弹药管理模型&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"弹药管理模型管理战斗中的弹药使用和分配。"</data>
+  <data key="d2">chunk-7b78daee5924b1031c72b82d1c076986</data>
+</node>
+<node id="&quot;预警系统模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"预警系统模型是一种建立针对空中威胁的预警系统的模型。"&lt;SEP&gt;"预警系统模型是一种建立针对空中威胁的预警系统的模型，属于军事领域的防御技术。"</data>
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd&lt;SEP&gt;chunk-f2d82ed6062b818a0ed93b7fe82e1703</data>
+</node>
+<node id="&quot;反洗钱模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"反洗钱模型是一种用于制定反洗钱在战争中的实施方案的模型。"</data>
+  <data key="d2">chunk-8ed5acdc8813bc57d34368a6aad3692e</data>
+</node>
+<node id="&quot;心理战&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"心理战是指通过影响敌方士兵的心理状态来削弱其战斗力的行为。"</data>
+  <data key="d2">chunk-8ed5acdc8813bc57d34368a6aad3692e</data>
+</node>
+<node id="&quot;后勤支持模型&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"后勤支持模型优化战斗中的物资补给链。"</data>
+  <data key="d2">chunk-7b78daee5924b1031c72b82d1c076986</data>
+</node>
+<node id="&quot;电子侦察模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"电子侦察模型是一种进行敌方电子信号的侦察的模型，属于军事领域的情报收集技术。"</data>
+  <data key="d2">chunk-f2d82ed6062b818a0ed93b7fe82e1703</data>
+</node>
+<node id="&quot;武器系统评估模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"武器系统评估模型是一种用于评估新武器系统有效性的模型。"</data>
+  <data key="d2">chunk-8ed5acdc8813bc57d34368a6aad3692e</data>
+</node>
+<node id="&quot;生态影响&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"生态影响是指战争对环境造成的破坏或影响。"</data>
+  <data key="d2">chunk-8ed5acdc8813bc57d34368a6aad3692e</data>
+</node>
+<node id="&quot;水域监测模型&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"水域监测模型监测重要水域的敌方活动。"</data>
+  <data key="d2">chunk-7b78daee5924b1031c72b82d1c076986</data>
+</node>
+<node id="&quot;战争法律模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"战争法律模型是一种确保作战遵循国际战争法的模型，属于军事领域的法律规范。"</data>
+  <data key="d2">chunk-f2d82ed6062b818a0ed93b7fe82e1703</data>
+</node>
+<node id="&quot;反谍报模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"反谍报模型是一种用于设计防止敌方渗透的措施的模型。"</data>
+  <data key="d2">chunk-8ed5acdc8813bc57d34368a6aad3692e</data>
+</node>
+<node id="&quot;爆炸物处理模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"爆炸物处理模型是一种制定爆炸物安全处理方案的模型。"</data>
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</node>
+<node id="&quot;车辆调度模型&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"车辆调度模型优化军事车辆的调度和使用。"&lt;SEP&gt;"车辆调度模型是一种优化军事车辆调度和使用的模型。"</data>
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd&lt;SEP&gt;chunk-7b78daee5924b1031c72b82d1c076986</data>
+</node>
+<node id="&quot;多国合作模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"多国合作模型是一种制定多国军队合作的框架的模型，属于军事领域的国际合作。"</data>
+  <data key="d2">chunk-f2d82ed6062b818a0ed93b7fe82e1703</data>
+</node>
+<node id="&quot;评估和管理士兵的战斗疲劳&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"评估和管理士兵的战斗疲劳是一项涉及军事管理的事件。"</data>
+  <data key="d2">chunk-8ed5acdc8813bc57d34368a6aad3692e</data>
+</node>
+<node id="&quot;机动战术模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"机动战术模型是一种设计快速机动战术方案的模型。"</data>
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</node>
+<node id="&quot;空中监视模型&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"空中监视模型是一种用于获取战场信息的空中监视模型。"&lt;SEP&gt;"空中监视模型进行空中监视以获取战场信息。"</data>
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd&lt;SEP&gt;chunk-7b78daee5924b1031c72b82d1c076986</data>
+</node>
+<node id="&quot;战略沟通模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"战略沟通模型是一种制定与公众和媒体的沟通策略的模型，属于军事领域的公共关系。"</data>
+  <data key="d2">chunk-f2d82ed6062b818a0ed93b7fe82e1703</data>
+</node>
+<node id="&quot;士兵&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"士兵是执行军事任务的个体。"</data>
+  <data key="d2">chunk-8ed5acdc8813bc57d34368a6aad3692e</data>
+</node>
+<node id="&quot;联合演习模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"联合演习模型是一种规划多军种联合演习日程的模型。"</data>
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</node>
+<node id="&quot;组织&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"组织是指具有明确目的、结构和人员组成的集体，如政府机构、企业等。"</data>
+  <data key="d2">chunk-7b78daee5924b1031c72b82d1c076986</data>
+</node>
+<node id="&quot;冲突调解模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"冲突调解模型是一种规划冲突中的调解和对话策略的模型，属于军事领域的和平解决手段。"</data>
+  <data key="d2">chunk-f2d82ed6062b818a0ed93b7fe82e1703</data>
+</node>
+<node id="&quot;战斗疲劳&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"战斗疲劳是指由于长时间战斗或紧张任务导致士兵身体和心理疲惫的状态。"</data>
+  <data key="d2">chunk-8ed5acdc8813bc57d34368a6aad3692e</data>
+</node>
+<node id="&quot;防空火力配置模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"防空火力配置模型是一种配置防空武器最佳位置的模型。"</data>
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</node>
+<node id="&quot;人&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"人是指具有独立意识和行为能力的个体，如军事人员、平民等。"</data>
+  <data key="d2">chunk-7b78daee5924b1031c72b82d1c076986</data>
+</node>
+<node id="&quot;决策模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"决策模型是一种制定快速决策的流程和机制的模型，属于军事领域的指挥控制。"</data>
+  <data key="d2">chunk-f2d82ed6062b818a0ed93b7fe82e1703</data>
+</node>
+<node id="&quot;军事管理&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"军事管理是指对军事活动和资源的规划、指挥、协调和控制。"</data>
+  <data key="d2">chunk-8ed5acdc8813bc57d34368a6aad3692e</data>
+</node>
+<node id="&quot;防化作战模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"防化作战模型是一种制定化学、生物威胁应对策略的模型。"</data>
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</node>
+<node id="&quot;地理区域&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"地理区域是指地球表面上具有一定地理特征和范围的区域，如国家、城市等。"</data>
+  <data key="d2">chunk-7b78daee5924b1031c72b82d1c076986</data>
+</node>
+<node id="&quot;科技应用模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"科技应用模型是一种评估新技术在军事中的应用的模型，属于军事领域的科技创新。"</data>
+  <data key="d2">chunk-f2d82ed6062b818a0ed93b7fe82e1703</data>
+</node>
+<node id="&quot;评估&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"评估是指对某个对象或情况进行审查和判断的过程。"</data>
+  <data key="d2">chunk-8ed5acdc8813bc57d34368a6aad3692e</data>
+</node>
+<node id="&quot;侦察任务模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"侦察任务模型是一种设计地面侦察任务的模型。"</data>
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</node>
+<node id="&quot;事件&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"事件是指在一定时间和地点发生的具有特定意义的事情，如战争、演习等。"</data>
+  <data key="d2">chunk-7b78daee5924b1031c72b82d1c076986</data>
+</node>
+<node id="&quot;城市作战模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"城市作战模型是一种设计城市环境中的作战策略的模型，属于军事领域的战术应用。"</data>
+  <data key="d2">chunk-f2d82ed6062b818a0ed93b7fe82e1703</data>
+</node>
+<node id="&quot;管理&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"管理是指对组织、系统或活动进行规划、指导、监督和调整的过程。"</data>
+  <data key="d2">chunk-8ed5acdc8813bc57d34368a6aad3692e</data>
+</node>
+<node id="&quot;指挥通信模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"指挥通信模型是一种优化指挥官与部队通信流程的模型。"</data>
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</node>
+<node id="&quot;类别&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"类别是指将事物按照一定标准进行分类的类别，如军事行动类别、技术类别等。"</data>
+  <data key="d2">chunk-7b78daee5924b1031c72b82d1c076986</data>
+</node>
+<node id="&quot;资源分配模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"资源分配模型是一种优化军事资源的分配方案的模型，属于军事领域的资源管理。"</data>
+  <data key="d2">chunk-f2d82ed6062b818a0ed93b7fe82e1703</data>
+</node>
+<node id="&quot;计划&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"计划是指对未来行动的预先安排和设计。"</data>
+  <data key="d2">chunk-8ed5acdc8813bc57d34368a6aad3692e</data>
+</node>
+<node id="&quot;反坦克作战模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"反坦克作战模型是一种设计针对敌方坦克打击方案的模型。"</data>
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</node>
+<node id="&quot;行动计划模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"行动计划模型是一种制定特定行动的详细计划的模型，属于军事领域的计划制定。"</data>
+  <data key="d2">chunk-f2d82ed6062b818a0ed93b7fe82e1703</data>
+</node>
+<node id="&quot;无人机&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"无人机是一种无人驾驶的飞行器，可以执行各种任务，如侦察、攻击等。"</data>
+  <data key="d2">chunk-7b78daee5924b1031c72b82d1c076986</data>
+</node>
+<node id="&quot;实施方案&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"实施方案是指将计划转化为实际操作的步骤和细节。"</data>
+  <data key="d2">chunk-8ed5acdc8813bc57d34368a6aad3692e</data>
+</node>
+<node id="&quot;夜战战术模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"夜战战术模型是一种制定夜间作战战术和程序的模型。"</data>
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</node>
+<node id="&quot;雷达&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"雷达是一种利用电磁波探测目标的设备，常用于军事和民用领域。"</data>
+  <data key="d2">chunk-7b78daee5924b1031c72b82d1c076986</data>
+</node>
+<node id="&quot;反恐作战模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"反恐作战模型是一种针对恐怖活动的作战策略的模型，属于军事领域的反恐战术。"</data>
+  <data key="d2">chunk-f2d82ed6062b818a0ed93b7fe82e1703</data>
+</node>
+<node id="&quot;措施和计划&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"措施和计划是指为解决特定问题或实现特定目标而制定的行动方案。"</data>
+  <data key="d2">chunk-8ed5acdc8813bc57d34368a6aad3692e</data>
+</node>
+<node id="&quot;训练评估模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"训练评估模型是一种评估部队训练效果和进度的模型。"</data>
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</node>
+<node id="&quot;通信系统&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"通信系统是指用于传递信息的设备、设施和技术的总称。"</data>
+  <data key="d2">chunk-7b78daee5924b1031c72b82d1c076986</data>
+</node>
+<node id="&quot;情报共享模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"情报共享模型是一种建立多国情报共享机制的模型，属于军事领域的情报交流。"</data>
+  <data key="d2">chunk-f2d82ed6062b818a0ed93b7fe82e1703</data>
+</node>
+<node id="&quot;实施方案的规划&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"实施方案的规划是指对实施计划的具体步骤和细节进行设计。"</data>
+  <data key="d2">chunk-8ed5acdc8813bc57d34368a6aad3692e</data>
+</node>
+<node id="&quot;目标优先级模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"目标优先级模型是一种确定作战中目标优先级的模型。"</data>
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</node>
+<node id="&quot;指挥系统&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"指挥系统是指用于指挥和控制军事行动的组织结构。"</data>
+  <data key="d2">chunk-7b78daee5924b1031c72b82d1c076986</data>
+</node>
+<node id="&quot;防御工事建设模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"防御工事建设模型是一种规划防御工事的建设流程的模型，属于军事领域的防御设施。"</data>
+  <data key="d2">chunk-f2d82ed6062b818a0ed93b7fe82e1703</data>
+</node>
+<node id="&quot;措施的实施&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"措施的实施是指将制定的措施付诸实践的过程。"</data>
+  <data key="d2">chunk-8ed5acdc8813bc57d34368a6aad3692e</data>
+</node>
+<node id="&quot;信息传播模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"信息传播模型是一种优化战场信息传播机制的模型。"</data>
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</node>
+<node id="&quot;战斗机&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"战斗机是一种主要用于空中作战的飞机，具有高速、高机动性等特点。"</data>
+  <data key="d2">chunk-7b78daee5924b1031c72b82d1c076986</data>
+</node>
+<node id="&quot;战争经济模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"战争经济模型是一种分析战争对经济的影响的模型，属于军事领域的经济分析。"</data>
+  <data key="d2">chunk-f2d82ed6062b818a0ed93b7fe82e1703</data>
+</node>
+<node id="&quot;策略的制定&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"策略的制定是指为了应对特定情况而设计行动方针的过程。"</data>
+  <data key="d2">chunk-8ed5acdc8813bc57d34368a6aad3692e</data>
+</node>
+<node id="&quot;外交策略模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"外交策略模型是一种制定与敌方进行谈判的策略的模型。"</data>
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</node>
+<node id="&quot;导弹&quot;">
+  <data key="d0">"TECHNOLOGY"</data>
+  <data key="d1">"导弹是一种能够携带弹头并按照预定弹道飞行的武器。"</data>
+  <data key="d2">chunk-7b78daee5924b1031c72b82d1c076986</data>
+</node>
+<node id="&quot;舰艇部署模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"舰艇部署模型是一种优化舰艇在海域的部署方案的模型，属于军事领域的海上作战。"</data>
+  <data key="d2">chunk-f2d82ed6062b818a0ed93b7fe82e1703</data>
+</node>
+<node id="&quot;反制策略&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"反制策略是指针对敌方行动采取的对抗措施。"</data>
+  <data key="d2">chunk-8ed5acdc8813bc57d34368a6aad3692e</data>
+</node>
+<node id="&quot;海上巡逻模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"海上巡逻模型是一种设计海上巡逻航线和时间的模型。"</data>
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</node>
+<node id="&quot;情报&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"情报是指为了满足某种目的而收集、处理和分析的信息。"</data>
+  <data key="d2">chunk-7b78daee5924b1031c72b82d1c076986</data>
+</node>
+<node id="&quot;行为分析模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"行为分析模型是一种分析敌方士兵的行为模式的模型，属于军事领域的情报分析。"</data>
+  <data key="d2">chunk-f2d82ed6062b818a0ed93b7fe82e1703</data>
+</node>
+<node id="&quot;协同作战&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"协同作战是指多个单位或个人在战斗中相互配合，共同完成任务。"</data>
+  <data key="d2">chunk-8ed5acdc8813bc57d34368a6aad3692e</data>
+</node>
+<node id="&quot;地面防御模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"地面防御模型是一种建立地面防御阵地方案的模型。"</data>
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</node>
+<node id="&quot;基础设施&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"基础设施是指支撑社会和经济活动的基础设施，如道路、桥梁等。"</data>
+  <data key="d2">chunk-7b78daee5924b1031c72b82d1c076986</data>
+</node>
+<node id="&quot;反弹道导弹模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"反弹道导弹模型是一种设计针对弹道导弹的防御策略的模型，属于军事领域的导弹防御。"</data>
+  <data key="d2">chunk-f2d82ed6062b818a0ed93b7fe82e1703</data>
+</node>
+<node id="&quot;训练教材&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"训练教材是为提高士兵技能和知识而设计的材料。"</data>
+  <data key="d2">chunk-8ed5acdc8813bc57d34368a6aad3692e</data>
+</node>
+<node id="&quot;战术补给模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"战术补给模型是一种规划战斗中补给路线的模型。"</data>
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</node>
+<node id="&quot;训练&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"训练是指为了提高人员技能或准备行动而进行的一系列活动。"</data>
+  <data key="d2">chunk-7b78daee5924b1031c72b82d1c076986</data>
+</node>
+<node id="&quot;人员配置模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"人员配置模型是一种规划部队的人员配置的模型，属于军事领域的人事管理。"</data>
+  <data key="d2">chunk-f2d82ed6062b818a0ed93b7fe82e1703</data>
+</node>
+<node id="&quot;侦察任务&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"侦察任务是指收集敌方或特定区域信息的行为。"</data>
+  <data key="d2">chunk-8ed5acdc8813bc57d34368a6aad3692e</data>
+</node>
+<node id="&quot;冲突升级模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"冲突升级模型是一种评估冲突升级的可能性和影响的模型。"</data>
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</node>
+<node id="&quot;损伤&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"损伤是指由于物理或化学作用导致的身体或物质的破坏。"</data>
+  <data key="d2">chunk-7b78daee5924b1031c72b82d1c076986</data>
+</node>
+<node id="&quot;设备维护模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"设备维护模型是一种制定军事设备的维护和保养计划的模型，属于军事领域的后勤保障。"</data>
+  <data key="d2">chunk-f2d82ed6062b818a0ed93b7fe82e1703</data>
+</node>
+<node id="&quot;社会舆论&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"社会舆论是指公众对特定事件或问题的看法和态度。"</data>
+  <data key="d2">chunk-8ed5acdc8813bc57d34368a6aad3692e</data>
+</node>
+<node id="&quot;领导力发展模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"领导力发展模型是一种制定军事领导力发展计划的模型。"</data>
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</node>
+<node id="&quot;模拟&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"模拟是指通过模仿实际情况来测试或训练的过程。"</data>
+  <data key="d2">chunk-7b78daee5924b1031c72b82d1c076986</data>
+</node>
+<node id="&quot;战斗疲劳管理模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"战斗疲劳管理模型是一种评估和管理士兵的战斗疲劳的模型，属于军事领域的士兵健康。"</data>
+  <data key="d2">chunk-f2d82ed6062b818a0ed93b7fe82e1703</data>
+</node>
+<node id="&quot;情报信息&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"情报信息是指为决策提供依据的机密信息。"</data>
+  <data key="d2">chunk-8ed5acdc8813bc57d34368a6aad3692e</data>
+</node>
+<node id="&quot;数据分析模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"数据分析模型是一种分析战斗数据以改进策略的模型。"</data>
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</node>
+<node id="&quot;支援&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"支援是指为了支持某项活动或任务而提供帮助或资源。"</data>
+  <data key="d2">chunk-7b78daee5924b1031c72b82d1c076986</data>
+</node>
+<node id="&quot;危机管理模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"危机管理模型是一种制定军事危机中的应对策略的模型，属于军事领域的应急处理。"&lt;SEP&gt;"危机管理模型是一种用于制定军事危机中的应对策略的模型。"</data>
+  <data key="d2">chunk-8ed5acdc8813bc57d34368a6aad3692e&lt;SEP&gt;chunk-f2d82ed6062b818a0ed93b7fe82e1703</data>
+</node>
+<node id="&quot;军事任务&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"军事任务是指军队需要完成的特定工作或活动。"</data>
+  <data key="d2">chunk-8ed5acdc8813bc57d34368a6aad3692e</data>
+</node>
+<node id="&quot;敌方活动&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"敌方活动指的是敌方进行的军事活动，是本文本讨论的背景事件。"</data>
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</node>
+<node id="&quot;策略&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"策略是指为了实现特定目标而制定的行动计划。"&lt;SEP&gt;"策略是指为实现目标而采取的行动方针或方法。"</data>
+  <data key="d2">chunk-8ed5acdc8813bc57d34368a6aad3692e&lt;SEP&gt;chunk-7b78daee5924b1031c72b82d1c076986</data>
+</node>
+<node id="&quot;战略评估模型&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"战略评估模型是一种用于评估整体战略有效性的模型。"&lt;SEP&gt;"战略评估模型是一种评估整体战略的模型，属于军事领域的战略规划。"</data>
+  <data key="d2">chunk-8ed5acdc8813bc57d34368a6aad3692e&lt;SEP&gt;chunk-f2d82ed6062b818a0ed93b7fe82e1703</data>
+</node>
+<node id="&quot;过渡时期&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"过渡时期是指从一个阶段到另一个阶段转变的时期。"</data>
+  <data key="d2">chunk-8ed5acdc8813bc57d34368a6aad3692e</data>
+</node>
+<node id="&quot;军事车辆&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"军事车辆是指用于军事目的的车辆，包括装甲车、运输车等。"</data>
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</node>
+<node id="&quot;战术&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"战术是指为了实现战略目标而在战场上采取的具体行动。"</data>
+  <data key="d2">chunk-7b78daee5924b1031c72b82d1c076986</data>
+</node>
+<node id="&quot;进策略&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"进策略是一个军事领域的概念，可能涉及军事行动的规划和实施。"</data>
+  <data key="d2">chunk-f2d82ed6062b818a0ed93b7fe82e1703</data>
+</node>
+<node id="&quot;文化&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"文化是指一个社会或群体的传统、习俗、信仰和价值观。"</data>
+  <data key="d2">chunk-8ed5acdc8813bc57d34368a6aad3692e</data>
+</node>
+<node id="&quot;战场信息&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"战场信息是指在军事行动中收集和使用的有关敌我双方的信息。"</data>
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</node>
+<node id="&quot;医疗&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"医疗是指为了预防、诊断、治疗疾病和损伤而提供的服务。"</data>
+  <data key="d2">chunk-7b78daee5924b1031c72b82d1c076986</data>
+</node>
+<node id="&quot;空中威胁&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"空中威胁指的是对军事设施或人员可能构成的空中攻击或威胁。"&lt;SEP&gt;"空中威胁是指来自空中的军事威胁，如敌方飞机或导弹。"</data>
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd&lt;SEP&gt;chunk-f2d82ed6062b818a0ed93b7fe82e1703</data>
+</node>
+<node id="&quot;资源&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"资源是指用于支持活动或生产的东西或服务。"</data>
+  <data key="d2">chunk-8ed5acdc8813bc57d34368a6aad3692e</data>
+</node>
+<node id="&quot;爆炸物&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"爆炸物是指用于军事目的或破坏的爆炸性物品。"</data>
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</node>
+<node id="&quot;弹药&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"弹药是指用于武器发射的物品，如子弹、炮弹等。"</data>
+  <data key="d2">chunk-7b78daee5924b1031c72b82d1c076986</data>
+</node>
+<node id="&quot;敌方电子信号&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"敌方电子信号是指敌方使用的电子设备发出的信号，可能用于侦察或通信。"</data>
+  <data key="d2">chunk-f2d82ed6062b818a0ed93b7fe82e1703</data>
+</node>
+<node id="&quot;调配策略&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"调配策略是指如何合理分配和使用资源的方法。"</data>
+  <data key="d2">chunk-8ed5acdc8813bc57d34368a6aad3692e</data>
+</node>
+<node id="&quot;战术方案&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"战术方案是指在军事行动中采取的具体行动方案。"</data>
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</node>
+<node id="&quot;制定夜间作战的战术和程序&quot;">
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+  <data key="d1">"夜战战术模型与夜间作战战术和程序制定有直接关系。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;优化军事车辆的调度和使用&quot;">
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+  <data key="d1">"车辆调度模型与军事车辆调度和使用有直接关系。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;设计地面侦察任务&quot;">
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+  <data key="d1">"侦察任务模型与地面侦察任务设计有直接关系。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;评估部队训练效果和进度&quot;">
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+  <data key="d1">"训练评估模型与部队训练效果和进度评估有直接关系。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;优化指挥官与部队的通信流程&quot;">
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+  <data key="d1">"指挥通信模型与指挥官与部队通信流程优化有直接关系。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;确定作战中的目标优先级&quot;">
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+  <data key="d1">"目标优先级模型与作战目标优先级确定有直接关系。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;制定心理战的策略与措施&quot;">
+  <data key="d2">chunk-5f574901424cf2e3461619c384c60966</data>
+  <data key="d1">"心理战模型用于制定心理战的策略与措施，具有直接关联性。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;优化战场信息的传播机制&quot;">
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+  <data key="d1">"信息传播模型与战场信息传播机制优化有直接关系。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;制定与敌方进行谈判的策略&quot;">
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+  <data key="d1">"外交策略模型与与敌方谈判策略制定有直接关系。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;规划部队在战场上的流动&quot;">
+  <data key="d2">chunk-5f574901424cf2e3461619c384c60966</data>
+  <data key="d1">"部队流动模型用于规划部队在战场上的流动，具有直接关联性。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;设计海上巡逻的航线和时间&quot;">
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+  <data key="d1">"海上巡逻模型与海上巡逻航线和时间设计有直接关系。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;制定突发事件的应对措施&quot;">
+  <data key="d2">chunk-5f574901424cf2e3461619c384c60966</data>
+  <data key="d1">"突发事件应对模型用于制定突发事件的应对措施，具有直接关联性。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;建立地面防御阵地的方案&quot;">
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+  <data key="d1">"地面防御模型与地面防御阵地建立方案有直接关系。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;评估战争对环境的影响&quot;">
+  <data key="d2">chunk-5f574901424cf2e3461619c384c60966</data>
+  <data key="d1">"生态影响评估模型用于评估战争对环境的影响，具有直接关联性。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;规划战斗中的补给路线&quot;">
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+  <data key="d1">"战术补给模型与战斗补给路线规划有直接关系。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;进行战斗后事件调查和分析&quot;">
+  <data key="d2">chunk-5f574901424cf2e3461619c384c60966</data>
+  <data key="d1">"事件调查模型用于进行战斗后事件调查和分析，具有直接关联性。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;评估冲突升级的可能性和影响&quot;">
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+  <data key="d1">"冲突升级模型与冲突升级可能性和影响评估有直接关系。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;获取战场信息&quot;">
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+  <data key="d1">"空中监视模型用于获取战场信息，与战场信息获取有直接关系。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;制定军事领导力的发展计划&quot;">
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+  <data key="d1">"领导力发展模型与军事领导力发展计划制定有直接关系。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;制定爆炸物的安全处理方案&quot;">
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+  <data key="d1">"爆炸物处理模型与爆炸物安全处理方案有直接关系。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;分析战斗数据以改进策略&quot;">
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+  <data key="d1">"数据分析模型与战斗数据分析和策略改进有直接关系。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;设计快速机动的战术方案&quot;">
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+  <data key="d1">"机动战术模型与快速机动战术方案有直接关系。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;设计针对敌方坦克的打击方案&quot;">
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+  <data key="d1">"反坦克作战模型与敌方坦克打击方案设计有直接关系。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;利用卫星进行战场监测&quot;">
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+  <data key="d1">"卫星监测模型与利用卫星进行战场监测有直接关系。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;制定反恐宣传的策略与计划&quot;">
+  <data key="d2">chunk-5f574901424cf2e3461619c384c60966</data>
+  <data key="d1">"反恐宣传模型用于制定反恐宣传的策略与计划，具有直接关联性。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;规划多军种联合演习的日程&quot;">
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+  <data key="d1">"联合演习模型与多军种联合演习的日程规划有直接关系。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;建立针对空中威胁的预警系统&quot;">
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+  <data key="d1">"预警系统模型与针对空中威胁的预警系统建立有直接关系。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;提供决策支持工具和系统&quot;">
+  <data key="d2">chunk-5f574901424cf2e3461619c384c60966</data>
+  <data key="d1">"决策支持模型用于提供决策支持工具和系统，具有直接关联性。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;配置防空武器的最佳位置&quot;">
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+  <data key="d1">"防空火力配置模型与防空武器配置有直接关系。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;军事行动背景&quot;">
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+  <data key="d1">"敌方活动是文本讨论的军事行动背景，对后续模型的应用有影响。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;制定化学、生物威胁应对策略&quot;">
+  <data key="d2">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+  <data key="d1">"防化作战模型与化学、生物威胁应对策略有直接关系。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;多军种联合演习&quot;" target="&quot;联合演习模型&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"多军种联合演习是联合演习模型规划的对象。"</data>
+  <data key="d5">"规划对象"</data>
+  <data key="d6">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</edge>
+<edge source="&quot;反恐宣传模型&quot;" target="&quot;制定反恐宣传的策略与计划&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"反恐宣传模型用于制定反恐宣传的策略与计划，具有直接关联性。"</data>
+  <data key="d5">"反恐行动，宣传策略"</data>
+  <data key="d6">chunk-5f574901424cf2e3461619c384c60966</data>
+</edge>
+<edge source="&quot;防空武器&quot;" target="&quot;防空火力配置模型&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"防空武器是防空火力配置模型配置的对象。"</data>
+  <data key="d5">"配置对象"</data>
+  <data key="d6">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</edge>
+<edge source="&quot;化学、生物威胁&quot;" target="&quot;防化作战模型&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"化学、生物威胁是防化作战模型需要应对的对象。"</data>
+  <data key="d5">"应对对象"</data>
+  <data key="d6">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</edge>
+<edge source="&quot;地面侦察任务&quot;" target="&quot;侦察任务模型&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"地面侦察任务是侦察任务模型设计的对象。"</data>
+  <data key="d5">"设计对象"</data>
+  <data key="d6">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</edge>
+<edge source="&quot;指挥官&quot;" target="&quot;指挥通信模型&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"指挥官是指挥通信模型优化的对象。"</data>
+  <data key="d5">"优化对象"</data>
+  <data key="d6">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</edge>
+<edge source="&quot;指挥官&quot;" target="&quot;部队&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"指挥官负责指挥部队，两者有直接的领导关系。"</data>
+  <data key="d5">"领导关系"</data>
+  <data key="d6">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</edge>
+<edge source="&quot;坦克&quot;" target="&quot;反坦克作战模型&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"坦克是反坦克作战模型需要打击的对象。"</data>
+  <data key="d5">"打击对象"</data>
+  <data key="d6">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</edge>
+<edge source="&quot;夜间作战&quot;" target="&quot;夜战战术模型&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"夜间作战是夜战战术模型需要应对的情境。"</data>
+  <data key="d5">"应对情境"</data>
+  <data key="d6">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</edge>
+<edge source="&quot;训练效果和进度&quot;" target="&quot;训练评估模型&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"训练效果和进度是训练评估模型评估的对象。"</data>
+  <data key="d5">"评估对象"</data>
+  <data key="d6">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</edge>
+<edge source="&quot;作战目标优先级&quot;" target="&quot;目标优先级模型&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"作战目标优先级是目标优先级模型确定的对象。"</data>
+  <data key="d5">"确定对象"</data>
+  <data key="d6">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</edge>
+<edge source="&quot;战场信息传播机制&quot;" target="&quot;信息传播模型&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"战场信息传播机制是信息传播模型优化的对象。"</data>
+  <data key="d5">"优化对象"</data>
+  <data key="d6">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</edge>
+<edge source="&quot;谈判策略&quot;" target="&quot;外交策略模型&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"谈判策略是外交策略模型制定的对象。"</data>
+  <data key="d5">"制定对象"</data>
+  <data key="d6">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</edge>
+<edge source="&quot;决策支持模型&quot;" target="&quot;提供决策支持工具和系统&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"决策支持模型用于提供决策支持工具和系统，具有直接关联性。"</data>
+  <data key="d5">"决策支持，工具系统"</data>
+  <data key="d6">chunk-5f574901424cf2e3461619c384c60966</data>
+</edge>
+<edge source="&quot;海上巡逻航线和时间&quot;" target="&quot;海上巡逻模型&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"海上巡逻航线和时间是海上巡逻模型设计的对象。"</data>
+  <data key="d5">"设计对象"</data>
+  <data key="d6">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</edge>
+<edge source="&quot;敌方&quot;" target="&quot;宣传&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"宣传旨在影响敌方士气和民众情绪，以达到战争目的。"</data>
+  <data key="d5">"心理战，战争策略"</data>
+  <data key="d6">chunk-5f574901424cf2e3461619c384c60966</data>
+</edge>
+<edge source="&quot;敌方&quot;" target="&quot;措施&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"敌方是采取措施的目标，以防止其渗透。"</data>
+  <data key="d5">"目标防御，安全措施"</data>
+  <data key="d6">chunk-5f574901424cf2e3461619c384c60966</data>
+</edge>
+<edge source="&quot;地面防御阵地&quot;" target="&quot;地面防御模型&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"地面防御阵地是地面防御模型建立的对象。"</data>
+  <data key="d5">"建立对象"</data>
+  <data key="d6">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</edge>
+<edge source="&quot;战斗补给路线&quot;" target="&quot;战术补给模型&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"战斗补给路线是战术补给模型规划的对象。"</data>
+  <data key="d5">"规划对象"</data>
+  <data key="d6">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</edge>
+<edge source="&quot;冲突升级的可能性&quot;" target="&quot;冲突升级模型&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"冲突升级的可能性是冲突升级模型评估的对象。"</data>
+  <data key="d5">"评估对象"</data>
+  <data key="d6">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</edge>
+<edge source="&quot;战争&quot;" target="&quot;环境&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"战争发生的环境会影响军事行动和措施的有效性。"</data>
+  <data key="d5">"环境因素，军事行动"</data>
+  <data key="d6">chunk-5f574901424cf2e3461619c384c60966</data>
+</edge>
+<edge source="&quot;战争&quot;" target="&quot;战场&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"战场是战争发生的具体地点，是军事模型模拟的核心。"</data>
+  <data key="d5">"战场模拟，军事行动"</data>
+  <data key="d6">chunk-5f574901424cf2e3461619c384c60966</data>
+</edge>
+<edge source="&quot;军事领导力&quot;" target="&quot;领导力发展模型&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"军事领导力是领导力发展模型发展的对象。"</data>
+  <data key="d5">"发展对象"</data>
+  <data key="d6">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</edge>
+<edge source="&quot;战斗数据&quot;" target="&quot;数据分析模型&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"战斗数据是数据分析模型分析的对象。"</data>
+  <data key="d5">"分析对象"</data>
+  <data key="d6">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</edge>
+<edge source="&quot;卫星&quot;" target="&quot;卫星监测模型&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"卫星是卫星监测模型监测的对象。"</data>
+  <data key="d5">"监测对象"</data>
+  <data key="d6">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</edge>
+<edge source="&quot;部队流动模型&quot;" target="&quot;规划部队在战场上的流动&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"部队流动模型用于规划部队在战场上的流动，具有直接关联性。"</data>
+  <data key="d5">"军事部署，战术规划"</data>
+  <data key="d6">chunk-5f574901424cf2e3461619c384c60966</data>
+</edge>
+<edge source="&quot;资源保护模型&quot;" target="&quot;评估和管理士兵的战斗疲劳&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"资源保护模型可能包含保护士兵免受战斗疲劳影响的措施。"</data>
+  <data key="d5">"资源保护,士兵疲劳防护"</data>
+  <data key="d6">chunk-8ed5acdc8813bc57d34368a6aad3692e</data>
+</edge>
+<edge source="&quot;生态影响评估模型&quot;" target="&quot;评估战争对环境的影响&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"生态影响评估模型用于评估战争对环境的影响，具有直接关联性。"</data>
+  <data key="d5">"环境影响，战争评估"</data>
+  <data key="d6">chunk-5f574901424cf2e3461619c384c60966</data>
+</edge>
+<edge source="&quot;航空补给模型&quot;" target="&quot;评估和管理士兵的战斗疲劳&quot;">
+  <data key="d3">4.0</data>
+  <data key="d4">"航空补给模型可能涉及为疲劳士兵提供补给。"</data>
+  <data key="d5">"补给支持,士兵疲劳应对"</data>
+  <data key="d6">chunk-8ed5acdc8813bc57d34368a6aad3692e</data>
+</edge>
+<edge source="&quot;突发事件应对模型&quot;" target="&quot;制定突发事件的应对措施&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"突发事件应对模型用于制定突发事件的应对措施，具有直接关联性。"</data>
+  <data key="d5">"应急处理，危机应对"</data>
+  <data key="d6">chunk-5f574901424cf2e3461619c384c60966</data>
+</edge>
+<edge source="&quot;反制措施模型&quot;" target="&quot;评估和管理士兵的战斗疲劳&quot;">
+  <data key="d3">12.0</data>
+  <data key="d4">"反制措施模型可能包括防止士兵因疲劳而导致的错误行动。"</data>
+  <data key="d5">"反制措施,防止疲劳错误"</data>
+  <data key="d6">chunk-8ed5acdc8813bc57d34368a6aad3692e</data>
+</edge>
+<edge source="&quot;心理战模型&quot;" target="&quot;制定心理战的策略与措施&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"心理战模型用于制定心理战的策略与措施，具有直接关联性。"</data>
+  <data key="d5">"战略制定，军事行动"</data>
+  <data key="d6">chunk-5f574901424cf2e3461619c384c60966</data>
+</edge>
+<edge source="&quot;舰队协同作战模型&quot;" target="&quot;评估和管理士兵的战斗疲劳&quot;">
+  <data key="d3">14.0</data>
+  <data key="d4">"舰队协同作战模型可能要求士兵在疲劳状态下保持协同。"</data>
+  <data key="d5">"协同作战,疲劳管理"</data>
+  <data key="d6">chunk-8ed5acdc8813bc57d34368a6aad3692e</data>
+</edge>
+<edge source="&quot;事件调查模型&quot;" target="&quot;进行战斗后事件调查和分析&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"事件调查模型用于进行战斗后事件调查和分析，具有直接关联性。"</data>
+  <data key="d5">"战后分析，事件调查"</data>
+  <data key="d6">chunk-5f574901424cf2e3461619c384c60966</data>
+</edge>
+<edge source="&quot;卫星监测模型&quot;" target="&quot;利用卫星进行战场监测&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"卫星监测模型与利用卫星进行战场监测有直接关系。"</data>
+  <data key="d5">"监测手段"</data>
+  <data key="d6">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</edge>
+<edge source="&quot;预警系统模型&quot;" target="&quot;空中威胁&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"空中威胁是预警系统模型建立预警的对象。"</data>
+  <data key="d5">"预警对象"</data>
+  <data key="d6">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</edge>
+<edge source="&quot;预警系统模型&quot;" target="&quot;建立针对空中威胁的预警系统&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"预警系统模型与针对空中威胁的预警系统建立有直接关系。"</data>
+  <data key="d5">"预警系统建立"</data>
+  <data key="d6">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</edge>
+<edge source="&quot;爆炸物处理模型&quot;" target="&quot;爆炸物&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"爆炸物是爆炸物处理模型需要处理的物品。"</data>
+  <data key="d5">"处理对象"</data>
+  <data key="d6">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</edge>
+<edge source="&quot;爆炸物处理模型&quot;" target="&quot;制定爆炸物的安全处理方案&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"爆炸物处理模型与爆炸物安全处理方案有直接关系。"</data>
+  <data key="d5">"安全处理"</data>
+  <data key="d6">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</edge>
+<edge source="&quot;车辆调度模型&quot;" target="&quot;优化军事车辆的调度和使用&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"车辆调度模型与军事车辆调度和使用有直接关系。"</data>
+  <data key="d5">"调度优化"</data>
+  <data key="d6">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</edge>
+<edge source="&quot;车辆调度模型&quot;" target="&quot;军事车辆&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"军事车辆是车辆调度模型的对象，用于调度和优化。"</data>
+  <data key="d5">"调度对象"</data>
+  <data key="d6">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</edge>
+<edge source="&quot;评估和管理士兵的战斗疲劳&quot;" target="&quot;危机管理模型&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"危机管理模型可能包含应对士兵战斗疲劳的策略。"</data>
+  <data key="d5">"危机应对,士兵疲劳管理"</data>
+  <data key="d6">chunk-8ed5acdc8813bc57d34368a6aad3692e</data>
+</edge>
+<edge source="&quot;评估和管理士兵的战斗疲劳&quot;" target="&quot;战略评估模型&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"战略评估模型可能包含评估士兵战斗疲劳对战略的影响。"</data>
+  <data key="d5">"战略评估,士兵疲劳影响"</data>
+  <data key="d6">chunk-8ed5acdc8813bc57d34368a6aad3692e</data>
+</edge>
+<edge source="&quot;机动战术模型&quot;" target="&quot;战术方案&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"战术方案是机动战术模型设计的对象。"</data>
+  <data key="d5">"设计对象"</data>
+  <data key="d6">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</edge>
+<edge source="&quot;机动战术模型&quot;" target="&quot;设计快速机动的战术方案&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"机动战术模型与快速机动战术方案有直接关系。"</data>
+  <data key="d5">"战术设计"</data>
+  <data key="d6">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</edge>
+<edge source="&quot;空中监视模型&quot;" target="&quot;战场信息&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"战场信息是空中监视模型的目标，用于获取。"</data>
+  <data key="d5">"获取目标"</data>
+  <data key="d6">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</edge>
+<edge source="&quot;空中监视模型&quot;" target="&quot;获取战场信息&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"空中监视模型用于获取战场信息，与战场信息获取有直接关系。"</data>
+  <data key="d5">"信息获取"</data>
+  <data key="d6">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</edge>
+<edge source="&quot;联合演习模型&quot;" target="&quot;规划多军种联合演习的日程&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"联合演习模型与多军种联合演习的日程规划有直接关系。"</data>
+  <data key="d5">"日程规划"</data>
+  <data key="d6">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</edge>
+<edge source="&quot;防空火力配置模型&quot;" target="&quot;配置防空武器的最佳位置&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"防空火力配置模型与防空武器配置有直接关系。"</data>
+  <data key="d5">"配置优化"</data>
+  <data key="d6">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</edge>
+<edge source="&quot;防化作战模型&quot;" target="&quot;制定化学、生物威胁应对策略&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"防化作战模型与化学、生物威胁应对策略有直接关系。"</data>
+  <data key="d5">"策略制定"</data>
+  <data key="d6">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</edge>
+<edge source="&quot;侦察任务模型&quot;" target="&quot;设计地面侦察任务&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"侦察任务模型与地面侦察任务设计有直接关系。"</data>
+  <data key="d5">"任务设计"</data>
+  <data key="d6">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</edge>
+<edge source="&quot;指挥通信模型&quot;" target="&quot;优化指挥官与部队的通信流程&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"指挥通信模型与指挥官与部队通信流程优化有直接关系。"</data>
+  <data key="d5">"流程优化"</data>
+  <data key="d6">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</edge>
+<edge source="&quot;反坦克作战模型&quot;" target="&quot;设计针对敌方坦克的打击方案&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"反坦克作战模型与敌方坦克打击方案设计有直接关系。"</data>
+  <data key="d5">"打击方案设计"</data>
+  <data key="d6">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</edge>
+<edge source="&quot;夜战战术模型&quot;" target="&quot;制定夜间作战的战术和程序&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"夜战战术模型与夜间作战战术和程序制定有直接关系。"</data>
+  <data key="d5">"战术制定"</data>
+  <data key="d6">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</edge>
+<edge source="&quot;训练评估模型&quot;" target="&quot;评估部队训练效果和进度&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"训练评估模型与部队训练效果和进度评估有直接关系。"</data>
+  <data key="d5">"效果评估"</data>
+  <data key="d6">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</edge>
+<edge source="&quot;目标优先级模型&quot;" target="&quot;确定作战中的目标优先级&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"目标优先级模型与作战目标优先级确定有直接关系。"</data>
+  <data key="d5">"优先级确定"</data>
+  <data key="d6">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</edge>
+<edge source="&quot;信息传播模型&quot;" target="&quot;优化战场信息的传播机制&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"信息传播模型与战场信息传播机制优化有直接关系。"</data>
+  <data key="d5">"传播优化"</data>
+  <data key="d6">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</edge>
+<edge source="&quot;外交策略模型&quot;" target="&quot;制定与敌方进行谈判的策略&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"外交策略模型与与敌方谈判策略制定有直接关系。"</data>
+  <data key="d5">"策略制定"</data>
+  <data key="d6">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</edge>
+<edge source="&quot;海上巡逻模型&quot;" target="&quot;设计海上巡逻的航线和时间&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"海上巡逻模型与海上巡逻航线和时间设计有直接关系。"</data>
+  <data key="d5">"航线规划"</data>
+  <data key="d6">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</edge>
+<edge source="&quot;地面防御模型&quot;" target="&quot;建立地面防御阵地的方案&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"地面防御模型与地面防御阵地建立方案有直接关系。"</data>
+  <data key="d5">"阵地建立"</data>
+  <data key="d6">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</edge>
+<edge source="&quot;战术补给模型&quot;" target="&quot;规划战斗中的补给路线&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"战术补给模型与战斗补给路线规划有直接关系。"</data>
+  <data key="d5">"补给规划"</data>
+  <data key="d6">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</edge>
+<edge source="&quot;冲突升级模型&quot;" target="&quot;评估冲突升级的可能性和影响&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"冲突升级模型与冲突升级可能性和影响评估有直接关系。"</data>
+  <data key="d5">"风险评估"</data>
+  <data key="d6">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</edge>
+<edge source="&quot;领导力发展模型&quot;" target="&quot;制定军事领导力的发展计划&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"领导力发展模型与军事领导力发展计划制定有直接关系。"</data>
+  <data key="d5">"计划制定"</data>
+  <data key="d6">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</edge>
+<edge source="&quot;数据分析模型&quot;" target="&quot;分析战斗数据以改进策略&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"数据分析模型与战斗数据分析和策略改进有直接关系。"</data>
+  <data key="d5">"数据分析"</data>
+  <data key="d6">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</edge>
+<edge source="&quot;敌方活动&quot;" target="&quot;军事行动背景&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"敌方活动是文本讨论的军事行动背景，对后续模型的应用有影响。"</data>
+  <data key="d5">"背景事件"</data>
+  <data key="d6">chunk-1b22d5357ca2933a3c61b5321ef832bd</data>
+</edge>
+</graph></graphml>
